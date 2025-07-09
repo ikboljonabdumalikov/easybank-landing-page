@@ -58,7 +58,7 @@ h6 {
 .header {
   width: 100%;
   max-width: 1140px;
-  padding: 0 15px;
+  padding: 18px 15px;
   margin: 0 auto;
 }
 
@@ -87,7 +87,7 @@ h6 {
   text-decoration: none;
   color: hsl(233, 8%, 62%);
   font-weight: 400;
-  padding: 1rem 0;
+  padding-bottom: 30px;
   position: relative;
   transition: color 0.3s ease;
 }
@@ -104,7 +104,7 @@ h6 {
   width: 0;
   height: 4px;
   background: linear-gradient(135deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-  transition: width 0.3s ease;
+  transition: color 0.3s ease, width 0.3s ease;
 }
 
 .header__nav-link:hover::after {
@@ -142,7 +142,7 @@ h6 {
   cursor: pointer;
   position: relative;
   z-index: 1001;
-  padding: 0.5rem;
+  /* padding: 8px; */
 }
 
 .header__menu-icon--close {
@@ -179,9 +179,9 @@ h6 {
 
 .mobile-nav__menu {
   background: white;
-  margin: 1.5rem;
+  margin: 24px;
   border-radius: 8px;
-  padding: 2rem 0;
+  padding: 32px 0;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   transform: translateY(-20px);
   transition: transform 0.3s ease;
@@ -202,11 +202,11 @@ h6 {
 
 .mobile-nav__link {
   display: block;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   color: hsl(233, 26%, 24%);
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 18px;
   transition: color 0.3s ease;
 }
 
@@ -217,7 +217,7 @@ h6 {
 /* Hero Section */
 .hero {
   background: hsl(0, 0%, 98%);
-  padding: 2rem 1.5rem;
+  padding: 32px 24px;
   text-align: center;
   min-height: 60vh;
   display: flex;
@@ -231,15 +231,15 @@ h6 {
 }
 
 .hero__title {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 40px;
+  margin-bottom: 16px;
   font-weight: 300;
   color: hsl(233, 26%, 24%);
 }
 
 .hero__text {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
+  font-size: 18px;
+  margin-bottom: 32px;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -250,18 +250,18 @@ h6 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 24px;
 }
 
 /* Features Section */
 .features {
   background: hsl(220, 16%, 96%);
-  padding: 4rem 0;
+  padding: 64px 0;
 }
 
 .features__title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 32px;
+  margin-bottom: 16px;
   text-align: center;
   color: hsl(233, 26%, 24%);
   font-weight: 300;
@@ -269,8 +269,8 @@ h6 {
 
 .features__intro {
   text-align: center;
-  margin-bottom: 3rem;
-  font-size: 1.1rem;
+  margin-bottom: 48px;
+  font-size: 18px;
   color: hsl(233, 8%, 62%);
   max-width: 600px;
   margin-left: auto;
@@ -280,24 +280,24 @@ h6 {
 .features__grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: 32px;
+  margin-top: 48px;
 }
 
 .feature {
   text-align: center;
-  padding: 1.5rem;
+  padding: 24px;
 }
 
 .feature__icon {
   width: 72px;
   height: 72px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .feature__title {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
+  font-size: 20px;
+  margin-bottom: 16px;
   color: hsl(233, 26%, 24%);
   font-weight: 300;
 }
@@ -310,12 +310,12 @@ h6 {
 /* Articles Section */
 .articles {
   background: hsl(0, 0%, 98%);
-  padding: 4rem 0;
+  padding: 64px 0;
 }
 
 .articles__title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 32px;
+  margin-bottom: 32px;
   text-align: center;
   color: hsl(233, 26%, 24%);
   font-weight: 300;
@@ -324,8 +324,8 @@ h6 {
 .articles__grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
-  margin-top: 3rem;
+  gap: 32px;
+  margin-top: 48px;
 }
 
 .article {
@@ -348,18 +348,18 @@ h6 {
 }
 
 .article__content {
-  padding: 1.5rem;
+  padding: 24px;
 }
 
 .article__author {
-  font-size: 0.75rem;
+  font-size: 12px;
   color: hsl(233, 8%, 62%);
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
   display: block;
 }
 
 .article__title {
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .article__link {
@@ -376,7 +376,7 @@ h6 {
 
 .article__text {
   color: hsl(233, 8%, 62%);
-  font-size: 0.9rem;
+  font-size: 14.4px;
   line-height: 1.5;
 }
 
@@ -384,26 +384,26 @@ h6 {
 .footer {
   background: hsl(233, 26%, 24%);
   color: white;
-  padding: 3rem 0 2rem;
+  padding: 48px 0 32px;
 }
 
 .footer__content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 32px;
   text-align: center;
 }
 
 .footer__logo {
   filter: brightness(0) invert(1);
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 .footer__social {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  gap: 16px;
+  margin-bottom: 32px;
 }
 
 .footer__social-link {
@@ -422,13 +422,13 @@ h6 {
 .footer__links {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .footer__column {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 8px;
 }
 
 .footer__link {
@@ -442,17 +442,20 @@ h6 {
 }
 
 .footer__cta {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 
 .footer__copyright {
-  margin-top: 1rem;
-  font-size: 0.9rem;
+  margin-top: 16px;
+  font-size: 14.4px;
   color: hsl(233, 8%, 62%);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header {
+        padding: 0;
+    }
   .header__nav-list,
   .header__btn {
     display: none;
@@ -463,7 +466,7 @@ h6 {
   }
 
   .header__nav {
-    padding: 1rem 1.5rem;
+    padding: 16px 24px;
   }
 
   .hero {
@@ -471,16 +474,16 @@ h6 {
   }
 
   .hero__title {
-    font-size: 2rem;
+    font-size: 32px;
   }
 
   .hero__text {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .features__title,
   .articles__title {
-    font-size: 1.75rem;
+    font-size: 28px;
   }
 }
 
@@ -490,7 +493,7 @@ h6 {
   }
 
   .hero {
-    padding: 4rem 5%;
+    padding: 64px 5%;
     max-width: 1200px;
     margin: 0 auto;
     background-image: url("../images/bg-intro-desktop.svg");
@@ -506,7 +509,7 @@ h6 {
 
   .features__grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 32px;
   }
 
   .feature {
@@ -515,7 +518,7 @@ h6 {
 
   .articles__grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 32px;
   }
 
   .footer__content {
@@ -530,7 +533,7 @@ h6 {
   }
 
   .footer__logo {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
   }
 
   .footer__social {
@@ -540,7 +543,7 @@ h6 {
 
   .footer__links {
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 32px;
   }
 
   .footer__cta {
@@ -551,10 +554,10 @@ h6 {
 
 @media (min-width: 1200px) {
   .hero {
-    padding: 4rem 0;
+    padding: 64px 0;
   }
 
   .container {
-    padding: 0 2rem;
+    padding: 0 32px;
   }
 }
