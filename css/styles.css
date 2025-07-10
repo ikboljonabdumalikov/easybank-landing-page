@@ -57,13 +57,17 @@ h6 {
   color: hsl(233, 26%, 24%);
   font-weight: 400;
 }
+.header { 
 
-.header {
+    padding: 18px 0;
+    flex-shrink: 0;
+    z-index: 10;
+    background-color: #fff;
+}
+.header__container {
   width: 100%;
   max-width: 1140px;
-  padding: 18px 0;
   margin: 0 auto;
-  flex-shrink: 0;
 }
 
 /* Main content area */
@@ -226,20 +230,34 @@ h6 {
 
 /* Hero Section */
 .hero {
-  background: #fafafa;
-  padding: 170px 0;
+    position: relative;
+    z-index: 1;
+  background-color: #fafafa;
+  padding: 170px 0 150px;
+  background-image: url("../images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 535px) calc(50% - 80px);
+  background-size: 1233px 956px;
+}
+.hero__mockups {
+  display: block;
+  width: 732px;
+  height: 901px;
+  position: absolute;
+  top: calc(50% - 430px);
+  right: calc(50% - 840px);
+  z-index: 1;
 }
 
 .hero__container {
-    width: 100%;
-    max-width: 1140px;
-    padding: 0 15px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .hero__content {
-    max-width: 447px;
-    width: 100%;
-
+  max-width: 447px;
+  width: 100%;
 }
 
 .hero__title {
@@ -558,7 +576,6 @@ h6 {
   .header__nav {
     padding: 16px 24px;
   }
-
 
   .hero__title {
     font-size: 32px;
